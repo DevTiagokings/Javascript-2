@@ -1,13 +1,16 @@
 "use strict"
-    
-let nome="Bruno"
-nome= "CFB Cursos"
-nome= 10
 
-const curso="Javascript"
+function teste(){
+    let nome="Bruno"
+    if(true){
+        console.log("Dentro de teste: " + nome)
+    } 
+    console.log("dentro do teste: " + nome)
+}
 
-curso = "HTML"
-console.log(curso)
+teste()
+
+console.log("fora de teste: " + nome)
 
     //console.log("dentro de teste:" + nome)
 //}
