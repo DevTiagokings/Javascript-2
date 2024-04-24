@@ -1,17 +1,12 @@
 "use strict"
 
-function teste(){
-    let nome="Bruno"
-    if(true){
-        console.log("Dentro de teste: " + nome)
-    } 
-    console.log("dentro do teste: " + nome)
-}
+let nome="Bruno"
+nome="CFB Cursos"
+nome=10
 
-teste()
+const curso="Javascript"
 
-console.log("fora de teste: " + nome)
-
+console.log(nome)
     //console.log("dentro de teste:" + nome)
 //}
 
